@@ -1,8 +1,8 @@
 # dzscan
 
-##新版本刚发布 可能存在一些bug，正在修复中,若有问题请提交[issue](https://github.com/code-scan/dzscan/issues)带上图是最好不过辣
+## 新版本刚发布 可能存在一些bug，正在修复中,若有问题请提交[issue](https://github.com/code-scan/dzscan/issues)带上图是最好不过辣
 **关注的人们啊, 被关注不是目的, 要来贡献代码或者反馈bug哦(●'◡'●)ﾉ♥**
-##扫描的漏洞路径如下:
+## 扫描的漏洞路径如下:
 - deafult admin & uc_server login page
 - develop.php
 - X3
@@ -15,9 +15,9 @@
  - [7.2 manyou/userapp.php ~ SQL](http://www.venustech.com.cn/NewsInfo/124/6791.Html)
  - [7.2 admincp.php ~ XSS](https://www.bugscan.net/#!/n/141)
 
-#安装与使用方法
+# 安装与使用方法
 漏洞库首页 [Dzscan](http://dzscan.org/)
-##windows
+## windows
 windows 需要安装VCForPython2.7
 
 下载地址
@@ -31,14 +31,14 @@ cd C:\Python27\Scripts
 easy_install pip
 pip install gevent
 ```
-##linux
+## linux
 linux就很简单，只需要执行
 ```
 easy_install pip
 pip install gevent
 ```
 
-#使用方法
+# 使用方法
 ```
 python dzscan.py --update //更新插件列表（目前已是最新无需更新）
 python dzscan.py -u http://bbs.dzscan.org/ --gevent 20 //20是线程数量，可以自定义
